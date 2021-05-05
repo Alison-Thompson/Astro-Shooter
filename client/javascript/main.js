@@ -1,0 +1,2 @@
+server = new Server();
+startup();

@@ -1,0 +1,334 @@
+* {
+	padding: 0;
+	margin: 0;
+	overflow-y: hidden;
+	overflow-x: hidden;
+}
+
+body {
+	background-color: black;
+}
+
+#footer {
+	position: absolute;
+	background-color: #424242;
+	width: 100%;
+	height: 7em;
+	bottom: 0px;
+}
+
+#header {
+	color: #35ce27;
+	font-size: 3em;
+	display: block;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	/*padding: 0.75em;*/
+	padding-top: 0.75em;
+    padding-bottom: 0.75em;
+    padding-left: 3em;
+}
+
+.highscore {
+	color: #35ce27;
+	font-size: 2.15em;
+	display: block;
+	padding: 0.15em;
+	text-align: center;
+}
+
+.score {
+	float: right;
+	text-align: right;
+}
+
+.playerName {
+	float: left;
+	text-align: left;
+}
+.wave {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#username-field {
+	display: block;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	height: 4em;
+	font-size: 3em;
+	color: #35ce27;
+	background-color: black;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	border-style: solid;
+	border-width: 3px;
+	border-color: #35ce27;
+	outline: none;
+}
+
+#password-field {
+	margin-top: 2em;
+	display: block;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	height: 4em;
+	font-size: 3em;
+	color: #35ce27;
+	background-color: black;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	border-style: solid;
+	border-width: 3px;
+	border-color: #35ce27;
+	outline: none;
+}
+
+#username-field-signup {
+	margin-top: 2em;
+	display: block;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	height: 3em;
+	font-size: 1.5em;
+	color: #35ce27;
+	background-color: black;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	border-style: solid;
+	border-width: 3px;
+	border-color: #35ce27;
+	outline: none;
+}
+
+#password-field-signup {
+	margin-top: 2em;
+	display: block;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	height: 3em;
+	font-size: 1.5em;
+	color: #35ce27;
+	background-color: black;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	border-style: solid;
+	border-width: 3px;
+	border-color: #35ce27;
+	outline: none;
+}
+
+#email-field-signup {
+	margin-top: 2em;
+	display: block;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	height: 3em;
+	font-size: 1.5em;
+	color: #35ce27;
+	background-color: black;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	border-style: solid;
+	border-width: 3px;
+	border-color: #35ce27;
+	outline: none;
+}
+
+#firstName-field-signup {
+	display: block;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	height: 3em;
+	font-size: 1.5em;
+	color: #35ce27;
+	background-color: black;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	border-style: solid;
+	border-width: 3px;
+	border-color: #35ce27;
+	outline: none;
+}
+
+#lastName-field-signup {
+	margin-top: 2em;
+	display: block;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	height: 3em;
+	font-size: 1.5em;
+	color: #35ce27;
+	background-color: black;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	border-style: solid;
+	border-width: 3px;
+	border-color: #35ce27;
+	outline: none;
+}
+
+#printed-message {
+	color: #35ce27;
+	font-size: 3em;
+	display: block;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0.75em;
+}
+
+#load-game {
+	display: inline;
+	float: left;
+	color: #35ce27;
+	background-color: #232323;
+	border-color: #4c4c4c;
+	margin-top: 7em;
+	margin-left: 2em;
+	padding: 10px;
+	font-size: 2em;
+}
+
+#load-game:focus {
+	outline: none;
+}
+
+#logout-button {
+	display: inline;
+	float: right;
+	color: #35ce27;
+	background-color: #232323;
+	border-color: #4c4c4c;
+	padding: 10px;
+	font-size: 1.5em;
+	margin-top: 1em;
+	margin-right: 1em;
+}
+
+#logout-button {
+	outline: none;
+}
+
+#signin-button {
+	display: inline;
+	float: right;
+	color: #35ce27;
+	background-color: #232323;
+	border-color: #4c4c4c;
+	padding: 10px;
+	font-size: 1.5em;
+	margin-top: 1em;
+	margin-right: 1em;
+}
+
+#signin-button {
+	outline: none;
+}
+
+#signup-button {
+	display: inline;
+	float: right;
+	color: #35ce27;
+	background-color: #232323;
+	border-color: #4c4c4c;
+	padding: 10px;
+	font-size: 1.5em;
+	margin-top: 1em;
+	margin-right: 1em;
+}
+
+#signup-button {
+	outline: none;
+}
+
+#start-new-game {
+	display: inline;
+	float: right;
+	color: #35ce27;
+	background-color: #232323;
+	border-color: #4c4c4c;
+	margin-top: 7em;
+	margin-right: 2em;
+	padding: 10px;
+	font-size: 2em;
+}
+
+#start-new-game:focus {
+	outline: none;
+}
+
+#start-new-game-center {
+	display: block;
+	color: #35ce27;
+	background-color: #232323;
+	border-color: #4c4c4c;
+	margin-top: 7em;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	font-size: 2em;
+}
+
+#start-new-game-center:focus {
+	outline: none;
+}
+
+#play-again-middle {
+	display: block;
+	color: #35ce27;
+	background-color: #232323;
+	border-color: #4c4c4c;
+	margin: auto;
+	padding: 10px;
+	margin-top: 0.75em;
+	font-size: 2em;
+}
+
+#play-again-middle:focus {
+	outline: none;
+}
+
+#play-again-right {
+	display: inline;
+	float: right;
+	color: #35ce27;
+	background-color: #232323;
+	border-color: #4c4c4c;
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-right: 2em;
+	padding: 10px;
+	margin-top: 0.75em;
+	font-size: 2em;
+}
+
+#play-again-right:focus {
+	outline: none;
+}
+
+#delete-highscore-left {
+	display: inline;
+	float: left;
+	color: #35ce27;
+	background-color: #232323;
+	border-color: #4c4c4c;
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-left: 2em;
+	padding: 10px;
+	margin-top: 0.75em;
+	font-size: 2em;
+}
+
+#delete-highscore-left:focus {
+	outline: none;
+}
